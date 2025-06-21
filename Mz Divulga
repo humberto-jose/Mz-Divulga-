@@ -1,0 +1,94 @@
+<!DOCTYPE html><html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portal da Música</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #222;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    nav a {
+      color: #fff;
+      padding: 1rem;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #444;
+    }
+    section {
+      padding: 2rem;
+    }
+    footer {
+      background-color: #111;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+    iframe {
+      max-width: 100%;
+      height: 315px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portal da Música</h1>
+    <p>Seu lugar para tudo sobre música</p>
+  </header>  <nav>
+    <a href="#noticias">Notícias</a>
+    <a href="#musicas">Músicas</a>
+    <a href="#entrevistas">Entrevistas</a>
+    <a href="#videos">Videoclipes</a>
+    <a href="#eventos">Eventos</a>
+    <a href="#contato">Contato</a>
+    <a href="#sobre">Sobre</a>
+  </nav>  <section id="noticias">
+    <h2>📰 Últimas Notícias</h2>
+    <p>Confira os lançamentos e novidades do mundo musical.</p>
+  </section>  <section id="musicas">
+    <h2>🎧 Músicas</h2>
+    <iframe src="https://open.spotify.com/embed/track/1" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+  </section>  <section id="entrevistas">
+    <h2>🎤 Entrevistas</h2>
+    <p>Conversas exclusivas com artistas da cena.</p>
+  </section>  <section id="videos">
+    <h2>🎥 Videoclipes</h2>
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Videoclipe"></iframe>
+  </section>  <section id="eventos">
+    <h2>📅 Próximos Eventos</h2>
+    <ul>
+      <li>Festival BeatMoz – 25/07</li>
+      <li>Show do MC Hugo D Moz – 03/08</li>
+    </ul>
+  </section>  <section id="contato">
+    <h2>📝 Contato</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required /><br /><br />
+      <input type="email" placeholder="Seu email" required /><br /><br />
+      <textarea placeholder="Sua mensagem" required></textarea><br /><br />
+      <button type="submit">Enviar</button>
+    </form>
+  </section>  <section id="sobre">
+    <h2>🔊 Sobre o Projeto</h2>
+    <p>Este site foi criado para divulgar música, dar voz a artistas e informar o público com conteúdo de qualidade.</p>
+  </section>  <footer>
+    <p>&copy; 2025 Portal da Música - Feito com ❤️ por MC Hugo D Moz</p>
+  </footer>
+</body>
+</html>
